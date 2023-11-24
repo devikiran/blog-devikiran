@@ -8,7 +8,7 @@ import LandingPage from '../components/LandingPage'
 
 
 import styles from './index.module.css';
-import FooterWrapper from '../theme/footer';
+
 
 // function HomepageHeader() {
 //   const {siteConfig} = useDocusaurusContext();
@@ -35,7 +35,7 @@ export default function Home() {
     <Layout title="Home" description={siteConfig.tagline}>
      <main>
       <LandingPage/>
-      <FooterWrapper></FooterWrapper>
+     
       </main>
       </Layout>
   
